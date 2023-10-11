@@ -1,8 +1,8 @@
 Write-Host "[INSTRUCCIONES]"
 Write-Host "--------------------------------------------------------------------------------------------"
 Write-Host "1.- Recomendacion: Descomprime Jhon the Ripper en la misma carpeta que este script."
-Write-Host "2.- Directorio de ejecucion: john-*.*-jumbo-1-win64\run"
-Write-Host "3.- Preferentemente añade las ubicaciones de archivos y directorios sin espacios para un mejor buen funcionamiento."
+Write-Host "2.- Directorio de ejecucion: john*.*\run"
+Write-Host "3.- Preferentemente añade las ubicaciones de archivos y directorios sin espacios para un mejor funcionamiento."
 Write-Host "--------------------------------------------------------------------------------------------"
 
 $archivoHashes = Read-Host "Introduce la ubicacion del listado de hashes (Sha1Passwords.txt)"
